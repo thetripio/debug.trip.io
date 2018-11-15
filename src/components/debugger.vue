@@ -58,7 +58,12 @@
                 let args = [];
 
                 parameters.forEach((val, index) => {
-                    args.push(val.value);
+                    if(val.type == 'array') {
+                        args.push(val.value.split(','));
+                    }
+                    else {
+                        args.push(val.value);
+                    }
                 });
 
                 return args;
@@ -90,6 +95,7 @@
             }
             .console-content {
                 padding: 5px;
+                word-break: break-all;
             }
         }
     }

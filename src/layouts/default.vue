@@ -20,16 +20,16 @@
                 </md-toolbar>
 
                 <md-list>
-                    <md-list-item>
-                        <span class="md-list-item-text">RoomNightAdmin</span>
+                    <md-list-item to="/">
+                        RoomNightAdmin
                     </md-list-item>
 
-                    <md-list-item>
-                        <span class="md-list-item-text">RoomNightCustomer</span>
+                    <md-list-item to="/room-night-customer">
+                        RoomNightCustomer
                     </md-list-item>
 
-                    <md-list-item>
-                        <span class="md-list-item-text">RoomNightVendor</span>
+                    <md-list-item to="/room-night-vendor">
+                        RoomNightVendor
                     </md-list-item>
                 </md-list>
             </md-app-drawer>
