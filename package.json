@@ -22,7 +22,9 @@
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
-        "start": "nuxt start"
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "deploy": "push-dir --dir=dist --master=gh-pages --cleanup"
     },
     "dependencies": {
         "babel-polyfill": "^6.26.0",
@@ -32,6 +34,7 @@
     },
     "devDependencies": {
         "node-sass": "^4.10.0",
+        "push-dir": "^0.4.1",
         "sass-loader": "^7.1.0"
     }
 }
