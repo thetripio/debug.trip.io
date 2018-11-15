@@ -1,0 +1,37 @@
+{
+    "name": "debug.trip.io",
+    "version": "0.1.0",
+    "description": "Tripio.js debug devtools",
+    "authors": [
+        {
+            "name": "Jay",
+            "email": "lijiakof@gmail.com",
+            "url": "https://github.com/lijiakof/"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thetripio/debug.trip.io.git"
+    },
+    "config": {
+        "nuxt": {
+            "host": "0.0.0.0",
+            "port": "16910"
+        }
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "nuxt": "^2.2.0",
+        "tripio": "^0.12.0-beta",
+        "vue-material": "^1.0.0-beta-10.2"
+    },
+    "devDependencies": {
+        "node-sass": "^4.10.0",
+        "sass-loader": "^7.1.0"
+    }
+}
