@@ -17,16 +17,7 @@
 <script>
     export default {
         data(){
-            return {
-                tripio: null
-            };
-        },
-        created(){
-
-        },
-        async mounted() {
-        },
-        methods: {
+            return { };
         }
     }
 </script>

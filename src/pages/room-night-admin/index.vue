@@ -26,15 +26,8 @@
 
         },
         mounted() {
-            let arg = [1, 2];
-
-            this.abc(...arg);
         },
         methods: {
-            abc: function(a, b) {
-                console.log(a);
-                console.log(b);
-            }
         }
     }
 </script>

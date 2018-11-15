@@ -6,7 +6,7 @@
                     @click="toggleMenu()">
                     <md-icon>menu</md-icon>
                 </md-button>
-                <h3 class="md-title" style="flex: 1">Tripio.js</h3>
+                <h3 class="md-title" style="flex: 1">Tripio.js Debugger</h3>
                 <md-button class="md-icon-button">
                     <md-icon>more_vert</md-icon>
                 </md-button>
