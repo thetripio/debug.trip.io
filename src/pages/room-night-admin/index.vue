@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <h2>RoomNightAdmin</h2>
+        <h2>RoomNightAdmin1</h2>
         <md-tabs md-sync-route>
             <md-tab id="tab-home" md-label="Query">
                 <query></query>
